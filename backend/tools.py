@@ -9,6 +9,19 @@ def get_date():
     return now.strftime("%d-%m-%y")
 
 def calculate(expression):
+    # Convert spoken math words into symbols so the calculator also works
+    # when you speak to SAVI (e.g. "calculate five plus three").
+    # Typed input like "calculate 5 + 3" keeps working unchanged.
+    expression = expression.lower()
+    spoken_math = {
+        " plus ": " + ",
+        " minus ": " - ",
+        " times ": " * ",
+        " multiplied by ": " * ",
+        " divided by ": " / ",
+    }
+    for word, symbol in spoken_math.items():
+        expression = expression.replace(word, symbol)
     try:
         return str(eval(expression))
     except:

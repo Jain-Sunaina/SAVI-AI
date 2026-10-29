@@ -1,0 +1,10 @@
+# SAVI AI — Python dependencies (install with:  pip install -r requirements.txt)
+# Text-to-speech (V2)
+pyttsx3==2.99
+# Gemini API (V2)
+google-genai==2.8.0
+# .env loading (V2)
+python-dotenv==1.2.2
+# Speech recognition / microphone input (V3)
+SpeechRecognition==3.17.0
+PyAudioWPatch==0.2.12.9

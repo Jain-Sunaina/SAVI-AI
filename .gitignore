@@ -1,4 +1,12 @@
+# --- Secrets (NEVER commit) ---
+.env
+*.env
 backend/.env
-backend/__pycache__/
+
+# --- Local memory (private) ---
 backend/memory.txt
+
+# --- Python cache & compiled files ---
+__pycache__/
 *.pyc
+*.pyo
