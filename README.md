@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SAVI AI 🤖
 
 SAVI is a personal AI assistant built with Python and the Gemini API. It can
@@ -119,3 +120,6 @@ Sunaina-AI/
 - Wake-word detection ("Hey SAVI")
 - Long-Term Memory
 - Mobile app
+=======
+# SAVI-AI
+>>>>>>> 1dbf84659ada66165b64fcf927e4c92834c8faf0
